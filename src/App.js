@@ -1,22 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import PlanEatRepeatv2 from './PlanEatRepeatv2.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={PlanEatRepeatv2} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Ready to Plan out your meals for success?
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="#"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Enter
         </a>
       </header>
     </div>
