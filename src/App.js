@@ -1,5 +1,6 @@
 import React from 'react';
 import PlanEatRepeatv2 from './PlanEatRepeatv2.svg';
+import { Button } from 'reactstrap';
 import './App.css';
 
 function App() {
@@ -10,14 +11,7 @@ function App() {
         <p>
           Ready to Plan out your meals for success?
         </p>
-        <a
-          className="App-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Enter
-        </a>
+        <Button color="secondary">Enter</Button>
       </header>
     </div>
   );
