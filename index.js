@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 // An api endpoint that returns the mealplan of items
 app.get('/api/mealplan', (req,res) => {
-    var mealplan = ["wednesday", "sunday", "monday"];
+    var mealplan = ["tuesday", "monday", 46];
     res.json(mealplan);
     console.log('Sent mealplan items');
 });
