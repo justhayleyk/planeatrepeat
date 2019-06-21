@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import PlanEatRepeatv2 from './PlanEatRepeatv2.svg';
 
 
 class Home extends Component {
@@ -7,7 +8,8 @@ class Home extends Component {
     return (
     <div className="App">
       <h1>Plan Eat Repeat</h1>
-      <p>Body text</p>
+      <img src={PlanEatRepeatv2} className="App-logo" alt="logo" />
+      <p>Ready to Plan out your meals for success?</p>
       {/* Link to List.js */}
       <Link to={'./mealplan'}>
         <button variant="raised">
